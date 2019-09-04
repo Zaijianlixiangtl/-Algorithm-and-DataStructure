@@ -1,0 +1,11 @@
+G:\MyCode\Algorithm\Algorithm\Algorithm\bin\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.deps.json
+G:\MyCode\Algorithm\Algorithm\Algorithm\bin\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.runtimeconfig.json
+G:\MyCode\Algorithm\Algorithm\Algorithm\bin\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.runtimeconfig.dev.json
+G:\MyCode\Algorithm\Algorithm\Algorithm\bin\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.dll
+G:\MyCode\Algorithm\Algorithm\Algorithm\bin\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.pdb
+G:\MyCode\Algorithm\Algorithm\Algorithm\obj\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.csprojAssemblyReference.cache
+G:\MyCode\Algorithm\Algorithm\Algorithm\obj\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.csproj.CoreCompileInputs.cache
+G:\MyCode\Algorithm\Algorithm\Algorithm\obj\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.AssemblyInfoInputs.cache
+G:\MyCode\Algorithm\Algorithm\Algorithm\obj\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.AssemblyInfo.cs
+G:\MyCode\Algorithm\Algorithm\Algorithm\obj\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.dll
+G:\MyCode\Algorithm\Algorithm\Algorithm\obj\Debug\netcoreapp2.2\DataStructure.LinkList.Apps.pdb

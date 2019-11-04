@@ -1,0 +1,9 @@
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Service\bin\Debug\netstandard2.0\Algorithm.Sort.Service.deps.json
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Service\bin\Debug\netstandard2.0\Algorithm.Sort.Service.dll
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Service\bin\Debug\netstandard2.0\Algorithm.Sort.Service.pdb
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Service\obj\Debug\netstandard2.0\Algorithm.Sort.Service.csprojAssemblyReference.cache
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Service\obj\Debug\netstandard2.0\Algorithm.Sort.Service.csproj.CoreCompileInputs.cache
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Service\obj\Debug\netstandard2.0\Algorithm.Sort.Service.AssemblyInfoInputs.cache
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Service\obj\Debug\netstandard2.0\Algorithm.Sort.Service.AssemblyInfo.cs
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Service\obj\Debug\netstandard2.0\Algorithm.Sort.Service.dll
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Service\obj\Debug\netstandard2.0\Algorithm.Sort.Service.pdb

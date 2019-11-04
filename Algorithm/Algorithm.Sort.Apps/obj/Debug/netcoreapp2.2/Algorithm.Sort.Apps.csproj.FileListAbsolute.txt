@@ -1,0 +1,14 @@
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\bin\Debug\netcoreapp2.2\Algorithm.Sort.Apps.deps.json
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\bin\Debug\netcoreapp2.2\Algorithm.Sort.Apps.runtimeconfig.json
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\bin\Debug\netcoreapp2.2\Algorithm.Sort.Apps.runtimeconfig.dev.json
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\bin\Debug\netcoreapp2.2\Algorithm.Sort.Apps.dll
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\bin\Debug\netcoreapp2.2\Algorithm.Sort.Apps.pdb
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\bin\Debug\netcoreapp2.2\Algorithm.Sort.Service.dll
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\bin\Debug\netcoreapp2.2\Algorithm.Sort.Service.pdb
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\obj\Debug\netcoreapp2.2\Algorithm.Sort.Apps.csprojAssemblyReference.cache
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\obj\Debug\netcoreapp2.2\Algorithm.Sort.Apps.csproj.CoreCompileInputs.cache
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\obj\Debug\netcoreapp2.2\Algorithm.Sort.Apps.AssemblyInfoInputs.cache
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\obj\Debug\netcoreapp2.2\Algorithm.Sort.Apps.AssemblyInfo.cs
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\obj\Debug\netcoreapp2.2\Algorithm.Sort.Apps.csproj.CopyComplete
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\obj\Debug\netcoreapp2.2\Algorithm.Sort.Apps.dll
+G:\MyCode\Algorithm\Algorithm\Algorithm.Sort.Apps\obj\Debug\netcoreapp2.2\Algorithm.Sort.Apps.pdb

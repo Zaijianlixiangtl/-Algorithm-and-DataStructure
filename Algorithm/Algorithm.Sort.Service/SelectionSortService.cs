@@ -4,6 +4,12 @@ using System.Text;
 
 namespace Algorithm.Sort.Service
 {
+	/// <summary>
+	/// 选择排序
+	/// 
+	/// 时间复杂度  是固定O(n^2)   与冒泡排序和插入排序相比 性能最差   而且不是稳定排序，通常不用
+	/// 空间复杂度  O(1)
+	/// </summary>
 	public class SelectionSortService : ISortAlgorithmService
 	{
 		public long[] Sort(long[] array)

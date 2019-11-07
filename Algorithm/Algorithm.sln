@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure.LinkList.Apps", "Algorithm\DataStructure.LinkList.Apps.csproj", "{FF88C472-8400-4EA2-8E55-F80B3B58A995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Sort.Service", "Algorithm.Sort.Service\Algorithm.Sort.Service.csproj", "{69C7CACA-F292-4CEC-AE9D-60658C261482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Sort.Service", "Algorithm.Sort.Service\Algorithm.Sort.Service.csproj", "{69C7CACA-F292-4CEC-AE9D-60658C261482}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Sort.Apps", "Algorithm.Sort.Apps\Algorithm.Sort.Apps.csproj", "{80081F7C-2394-4F3C-B847-04262B8296E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm.Sort.Apps", "Algorithm.Sort.Apps\Algorithm.Sort.Apps.csproj", "{80081F7C-2394-4F3C-B847-04262B8296E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

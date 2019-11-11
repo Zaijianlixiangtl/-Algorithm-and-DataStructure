@@ -9,12 +9,14 @@ namespace Algorithm.Sort.Apps
 	{
 		static void Main(string[] args)
 		{
-			
+			long[] array = new long[10] { 1,2,3,4,5,6,7,8,9,10};
+			ISearchService searchService = new BSearchService();
+			var aa =  searchService.Exist(array, 11);
+			Console.WriteLine(aa);
+			//long[] arrayl = array.Select(x => long.Parse(x))?.ToArray();
+			//  TestRadix(arrayl);
 
-			long[] arrayl = array.Select(x => long.Parse(x))?.ToArray();
-		   TestRadix(arrayl);
-
-			ISortAlgorithmService iSortAlgorithmService = new QuickSortService();
+			//ISortAlgorithmService iSortAlgorithmService = new QuickSortService();
 
 			//Stopwatch stopwatch = new Stopwatch();
 			//stopwatch.Start();

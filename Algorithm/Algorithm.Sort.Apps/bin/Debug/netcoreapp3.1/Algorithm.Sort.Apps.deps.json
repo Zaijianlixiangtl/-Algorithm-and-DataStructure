@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Algorithm.Sort.Apps/1.0.0": {
+        "dependencies": {
+          "Algorithm.Sort.Service": "1.0.0",
+          "DataStructure.Service": "1.0.0"
+        },
+        "runtime": {
+          "Algorithm.Sort.Apps.dll": {}
+        }
+      },
+      "Algorithm.Sort.Service/1.0.0": {
+        "runtime": {
+          "Algorithm.Sort.Service.dll": {}
+        }
+      },
+      "DataStructure.Service/1.0.0": {
+        "runtime": {
+          "DataStructure.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Algorithm.Sort.Apps/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Algorithm.Sort.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataStructure.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

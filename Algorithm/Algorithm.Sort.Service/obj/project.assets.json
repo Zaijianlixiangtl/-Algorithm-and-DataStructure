@@ -179,24 +179,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CESAAS\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\MyCode\\Algorithm\\Algorithm\\Algorithm.Sort.Service\\Algorithm.Sort.Service.csproj",
+      "projectUniqueName": "H:\\代码\\算法与数据结构\\-Algorithm-and-DataStructure\\Algorithm\\Algorithm.Sort.Service\\Algorithm.Sort.Service.csproj",
       "projectName": "Algorithm.Sort.Service",
-      "projectPath": "G:\\MyCode\\Algorithm\\Algorithm\\Algorithm.Sort.Service\\Algorithm.Sort.Service.csproj",
-      "packagesPath": "C:\\Users\\CESAAS\\.nuget\\packages\\",
-      "outputPath": "G:\\MyCode\\Algorithm\\Algorithm\\Algorithm.Sort.Service\\obj\\",
+      "projectPath": "H:\\代码\\算法与数据结构\\-Algorithm-and-DataStructure\\Algorithm\\Algorithm.Sort.Service\\Algorithm.Sort.Service.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "H:\\代码\\算法与数据结构\\-Algorithm-and-DataStructure\\Algorithm\\Algorithm.Sort.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\CESAAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -204,8 +205,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://nuget.cesaas.com/nugetserver/nuget": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/imagesharp": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
@@ -229,10 +229,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

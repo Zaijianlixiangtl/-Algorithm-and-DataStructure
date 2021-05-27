@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mzfQKFlwoybdbyMYkEu8Gu87M8STDJasBzwISWX+UJsAAYhlXutNYvAuFHwjPc1v1Yf0AIZkWRlGxNO8aO5wSQ==",
+  "success": true,
+  "projectFilePath": "H:\\代码\\算法与数据结构\\-Algorithm-and-DataStructure\\Algorithm\\DataStructure.Service\\DataStructure.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

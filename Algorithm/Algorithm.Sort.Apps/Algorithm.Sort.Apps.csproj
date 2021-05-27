@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Algorithm.Sort.Service\Algorithm.Sort.Service.csproj" />
+    <ProjectReference Include="..\DataStructure.Service\DataStructure.Service.csproj" />
   </ItemGroup>
 
 </Project>

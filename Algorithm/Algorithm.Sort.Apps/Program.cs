@@ -2,61 +2,105 @@
 using System.Diagnostics;
 using System.Linq;
 using Algorithm.Sort.Service;
+using DataStructure.Service;
+using System.Collections.Generic;
 
 namespace Algorithm.Sort.Apps
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			long[] array = new long[10] { 1,2,3,4,5,6,7,8,9,10};
-			ISearchService searchService = new BSearchService();
-			var aa =  searchService.Exist(array, 11);
-			Console.WriteLine(aa);
-			//long[] arrayl = array.Select(x => long.Parse(x))?.ToArray();
-			//  TestRadix(arrayl);
+    class Program
+    {
+        static void Main(string[] args)
+        {
 
-			//ISortAlgorithmService iSortAlgorithmService = new QuickSortService();
+            var stack = new  StackList<string>(2);
+            stack.Push("aa");
+            stack.Push("bb");
+            stack.Push("cc");
 
-			//Stopwatch stopwatch = new Stopwatch();
-			//stopwatch.Start();
-			//arrayl = iSortAlgorithmService.Sort(arrayl);
-			//stopwatch.Stop();
-			//Console.WriteLine($"结束{stopwatch.ElapsedMilliseconds}");
+            var item = "";
+            if(stack.Pop(ref item))
+            {
+                Console.WriteLine(item);
+            }
+            if (stack.Pop(ref item))
+            {
+                Console.WriteLine(item);
+            }
+            #region linkList
+            LinkList<string> linkList = new LinkList<string>();
+            linkList.Add("AA");
+            linkList.Add("bb");
+            linkList.Add("cc");
+            linkList.Add("AA");
+            linkList.Add("dd");
+            var count = linkList.Delete("AA");
+            var list = linkList.FindAll();
+
+            list?.ForEach(ea =>
+            {
+                Console.WriteLine(ea);
+            });
+            Console.WriteLine(linkList.Count);
+
+            var r = linkList.DeleteLast();
+            var list1 = linkList.FindAll();
+
+            list1?.ForEach(ea =>
+            {
+                Console.WriteLine(ea);
+            });
+            Console.WriteLine(linkList.Count);
+            Console.ReadLine();
+            #endregion
+
+            long[] array = new long[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            ISearchService searchService = new BSearchService();
+            var aa = searchService.Exist(array, 11);
+            Console.WriteLine(aa);
+            //long[] arrayl = array.Select(x => long.Parse(x))?.ToArray();
+            //  TestRadix(arrayl);
+
+            //ISortAlgorithmService iSortAlgorithmService = new QuickSortService();
+
+            //Stopwatch stopwatch = new Stopwatch();
+            //stopwatch.Start();
+            //arrayl = iSortAlgorithmService.Sort(arrayl);
+            //stopwatch.Stop();
+            //Console.WriteLine($"结束{stopwatch.ElapsedMilliseconds}");
 
 
 
-			//Printf(arrayl);
-			//Console.WriteLine("--------");
-			//	Console.WriteLine(a);
-			Console.ReadKey();
-		}
+            //Printf(arrayl);
+            //Console.WriteLine("--------");
+            //	Console.WriteLine(a);
+            Console.ReadKey();
+        }
 
-		static void Printf(long[] array)
-		{
-			if (array == null || array.Length == 0) return;
-			foreach (var item in array)
-			{
-				Console.WriteLine(item);
-			}
-		}
+        static void Printf(long[] array)
+        {
+            if (array == null || array.Length == 0) return;
+            foreach (var item in array)
+            {
+                Console.WriteLine(item);
+            }
+        }
 
-		static void TestRadix(long[] arrayl)
-		{
-			ISortAlgorithmService service = new RadixSortService();
-			Stopwatch stopwatch = new Stopwatch();
+        static void TestRadix(long[] arrayl)
+        {
+            ISortAlgorithmService service = new RadixSortService();
+            Stopwatch stopwatch = new Stopwatch();
 
-			Console.WriteLine("基数排序开始");
-			stopwatch.Start();
-			var arraylist = service.Sort(arrayl);
-			stopwatch.Stop();
-			Console.WriteLine($"基数排序结束{stopwatch.ElapsedMilliseconds}");
-			foreach (var item in arraylist)
-			{
-				Console.WriteLine(item);
-			}
-		}
-		static string[] array = new string[] {"13927176488",
+            Console.WriteLine("基数排序开始");
+            stopwatch.Start();
+            var arraylist = service.Sort(arrayl);
+            stopwatch.Stop();
+            Console.WriteLine($"基数排序结束{stopwatch.ElapsedMilliseconds}");
+            foreach (var item in arraylist)
+            {
+                Console.WriteLine(item);
+            }
+        }
+        static string[] array = new string[] {"13927176488",
 "18367665691",
 "13486866601",
 "18898411871",
@@ -108,7 +152,7 @@ namespace Algorithm.Sort.Apps
 "13556801389",
 "15185504527",
 "15703759123" };
-		static string[] array1 = new string[] {"13927176488",
+        static string[] array1 = new string[] {"13927176488",
 "18367665691",
 "13486866601",
 "18898411871",
@@ -38629,5 +38673,5 @@ namespace Algorithm.Sort.Apps
 "15703759123",
 "18607907002",
 "13676690717" };
-	}
+    }
 }
